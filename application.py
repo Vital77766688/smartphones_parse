@@ -11,6 +11,7 @@ OUTPUT_PATH = 'output/'
 
 def prepare_data():
 	files = os.listdir(OUTPUT_PATH)
+	files.remove('.gitkeep')
 	data = []
 	for file in files:
 		with open(os.path.join(OUTPUT_PATH, file), 'rb') as f: 

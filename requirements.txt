@@ -1,6 +1,7 @@
 attrs==20.3.0
 Automat==20.2.0
 cffi==1.14.5
+chompjs==1.0.16
 click==7.1.2
 constantly==15.1.0
 cryptography==3.4.6
@@ -25,9 +26,12 @@ PyDispatcher==2.0.5
 pyOpenSSL==20.0.1
 queuelib==1.5.0
 Scrapy==2.4.1
+scrapy-selenium==0.0.7
+selenium==3.141.0
 service-identity==18.1.0
 six==1.15.0
 Twisted==21.2.0
+urllib3==1.26.4
 w3lib==1.22.0
 Werkzeug==1.0.1
 zope.interface==5.3.0

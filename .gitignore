@@ -3,6 +3,7 @@ jupyter/
 /output/**
 !/output/**/
 !/output/**/.gitkeep
+chromedriver
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

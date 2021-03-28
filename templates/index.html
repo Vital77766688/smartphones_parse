@@ -13,7 +13,7 @@
 				{% for item in context.data %}
 				<div class="col-3">
 					<div class="card m-2">
-						<img src="{{ item.image }}" class="card-img-top" alt="{{ item.title }}">
+						<img src="{{ item.images[0] }}" class="card-img-top" alt="{{ item.title }}">
 						<div class="card-body">
 							<h5 class="card-title">{{ item.title }}</h5>
 							<p class="card-text">{{ item.price|price }}</p>
@@ -74,7 +74,7 @@
 			
 			const img = document.createElement('img')
 			img.classList.add('card-img-top')
-			img.setAttribute('src', item.image)
+			img.setAttribute('src', item.images[0])
 			img.setAttribute('alt', item.title)
 			card.appendChild(img)
 
